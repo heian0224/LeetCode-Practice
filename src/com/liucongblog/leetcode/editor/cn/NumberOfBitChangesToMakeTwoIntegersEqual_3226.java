@@ -55,12 +55,40 @@ package com.liucongblog.leetcode.editor.cn;
 public class NumberOfBitChangesToMakeTwoIntegersEqual_3226{
     public static void main(String[] args) {
          Solution solution = new NumberOfBitChangesToMakeTwoIntegersEqual_3226().new Solution();
+         System.out.println(solution.minChanges(13,4));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int minChanges(int n, int k) {
-        return 1;
+        if(n==k){
+            return 0;
+        }
+        if(n<k){
+            return -1;
+        }
+        // 14 1110
+        // 13 1101
+        // 4  0100
+        // 14|13= 15 1111
+        int orResult = n|k;
+        // 14&13= 12 1100
+        int andResult = n&k;
+        // 14^13= 3  0011
+        int xorResult = n^k;
+        // 15^14= 2  0001
+        // xorN 表示从xor里排除n的1,如果还有剩余的1表示k有n中没有的1,所以n不能通过改1的方式转化为k
+        int xorN = orResult^n;
+        if(xorN>0){
+            return -1;
+        }
+
+        int count = 0;
+        while(xorResult>0){
+            count = count + (xorResult&1);
+            xorResult = xorResult >> 1;
+        }
+        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
