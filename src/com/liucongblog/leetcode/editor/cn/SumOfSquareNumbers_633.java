@@ -31,12 +31,40 @@ package com.liucongblog.leetcode.editor.cn;
 public class SumOfSquareNumbers_633{
     public static void main(String[] args) {
          Solution solution = new SumOfSquareNumbers_633().new Solution();
+
+//        System.out.println(solution.judgeSquareSum(5));
+//
+//        System.out.println(solution.judgeSquareSum(3));
+//
+//        System.out.println(solution.judgeSquareSum(100));
+//
+//        System.out.println(solution.judgeSquareSum(4));
+        System.out.println(solution.judgeSquareSum(2147483600));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean judgeSquareSum(int c) {
-        return true;
+        double maxSqrtDoubleVal = Math.sqrt(c);
+        int maxSqrtIntVal = (int) Math.ceil(maxSqrtDoubleVal);
+        int left =0;
+        int right = maxSqrtIntVal+1;
+        while(left <= right){
+
+            long val = (long) left * left + (long) right * right;
+            if(val == c){
+                return true;
+            }
+            if(val > c){
+                right=right-1;
+            }
+            if(val < c){
+                left=left+1;
+            }
+
+        }
+
+        return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

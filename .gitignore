@@ -6,7 +6,7 @@ out
 
 # BlueJ files
 *.ctxt
-
+.idea/leetcode
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
