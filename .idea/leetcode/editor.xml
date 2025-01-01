@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ConvertDateToBinary_3280.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/doc/content/ConvertDateToBinary_3280.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3280" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ConvertDateToBinary_3280.java" />
+              <option name="titleSlug" value="convert-date-to-binary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/CountSubstringsThatSatisfyKConstraintI_3258.java">
           <value>
             <LeetcodeEditor>
