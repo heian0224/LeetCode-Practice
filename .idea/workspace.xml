@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38472bcf-37c4-4d04-a938-e8714f3f9a62" name="Changes" comment="add 3280">
+    <list default="true" id="38472bcf-37c4-4d04-a938-e8714f3f9a62" name="Changes" comment="change git ignore.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,29 +26,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ShoppingOffers_638 (1).executor": "Run",
-    "Application.ShoppingOffers_638.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.ValidParentheses_20.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/cong/workspace/FutureFantasy/LeetCode-Practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "leetcode.id",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ShoppingOffers_638 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingOffers_638.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParentheses_20.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cong/workspace/FutureFantasy/LeetCode-Practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ValidParentheses_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liucongblog.leetcode.editor.cn.ValidParentheses_20" />
@@ -90,7 +90,8 @@
       <workItem from="1731202246720" duration="594000" />
       <workItem from="1734176577347" duration="614000" />
       <workItem from="1735746880103" duration="135000" />
-      <workItem from="1747563525067" duration="2009000" />
+      <workItem from="1747563525067" duration="2153000" />
+      <workItem from="1747668711565" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="add idea config.">
       <option name="closed" value="true" />
@@ -124,7 +125,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735746985920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add problem 20 solution.">
+      <option name="closed" value="true" />
+      <created>1747579379002</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747579379002</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add problem 3024">
+      <option name="closed" value="true" />
+      <created>1747669241672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747669241672</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change git ignore.">
+      <option name="closed" value="true" />
+      <created>1747669294147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747669294147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +159,10 @@
     <MESSAGE value="add idea config." />
     <MESSAGE value="add shopping offers." />
     <MESSAGE value="add 3280" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 3280" />
+    <MESSAGE value="add problem 20 solution." />
+    <MESSAGE value="add problem 3024" />
+    <MESSAGE value="change git ignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="change git ignore." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
