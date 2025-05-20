@@ -201,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ZeroArrayTransformationI_3355.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/doc/content/ZeroArrayTransformationI_3355.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3355" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ZeroArrayTransformationI_3355.java" />
+              <option name="titleSlug" value="zero-array-transformation-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/[1931]Painting a Grid With Three Different Colors.java">
           <value>
             <LeetcodeEditor>

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38472bcf-37c4-4d04-a938-e8714f3f9a62" name="Changes" comment="change git ignore.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="38472bcf-37c4-4d04-a938-e8714f3f9a62" name="Changes" comment="add problem 3355">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,30 +26,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ShoppingOffers_638 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShoppingOffers_638.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParentheses_20.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cong/workspace/FutureFantasy/LeetCode-Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ShoppingOffers_638 (1).executor": "Run",
+    "Application.ShoppingOffers_638.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.ValidParentheses_20.executor": "Debug",
+    "Application.ZeroArrayTransformationI_3355 (1).executor": "Run",
+    "Application.ZeroArrayTransformationI_3355 (2).executor": "Run",
+    "Application.ZeroArrayTransformationI_3355.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/cong/workspace/FutureFantasy/LeetCode-Practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "leetcode.id",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.ZeroArrayTransformationI_3355 (2)">
     <configuration name="ValidParentheses_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liucongblog.leetcode.editor.cn.ValidParentheses_20" />
       <module name="LeetCode-Practice" />
@@ -63,8 +66,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZeroArrayTransformationI_3355 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liucongblog.leetcode.editor.cn.ZeroArrayTransformationI_3355" />
+      <module name="LeetCode-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liucongblog.leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroArrayTransformationI_3355 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liucongblog.leetcode.editor.cn.ZeroArrayTransformationI_3355" />
+      <module name="LeetCode-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liucongblog.leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroArrayTransformationI_3355" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liucongblog.leetcode.editor.cn.ZeroArrayTransformationI_3355" />
+      <module name="LeetCode-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liucongblog.leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ZeroArrayTransformationI_3355 (1)" />
+      <item itemvalue="Application.ZeroArrayTransformationI_3355 (2)" />
+      <item itemvalue="Application.ValidParentheses_20" />
+      <item itemvalue="Application.ZeroArrayTransformationI_3355" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZeroArrayTransformationI_3355 (2)" />
+        <item itemvalue="Application.ZeroArrayTransformationI_3355 (1)" />
+        <item itemvalue="Application.ZeroArrayTransformationI_3355" />
         <item itemvalue="Application.ValidParentheses_20" />
       </list>
     </recent_temporary>
@@ -92,6 +143,7 @@
       <workItem from="1735746880103" duration="135000" />
       <workItem from="1747563525067" duration="2153000" />
       <workItem from="1747668711565" duration="595000" />
+      <workItem from="1747748826827" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="add idea config.">
       <option name="closed" value="true" />
@@ -149,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747669294147</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add problem 3355">
+      <option name="closed" value="true" />
+      <created>1747750668800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747750668800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +222,8 @@
     <MESSAGE value="add problem 20 solution." />
     <MESSAGE value="add problem 3024" />
     <MESSAGE value="change git ignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="change git ignore." />
+    <MESSAGE value="add problem 3355" />
+    <option name="LAST_COMMIT_MESSAGE" value="add problem 3355" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,6 +237,16 @@
           <url>file://$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ValidParentheses_20.java</url>
           <line>63</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ZeroArrayTransformationI_3355.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liucongblog/leetcode/editor/cn/ZeroArrayTransformationI_3355.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.file.FileSystemException" package="java.nio.file" />
