@@ -51,10 +51,10 @@ public class TypeOfTriangle_3024 {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public static String equilateral = "equilateral";
-        public static String isosceles = "isosceles";
-        public static String scalene = "scalene";
-        public static String none = "none";
+        public   String equilateral = "equilateral";
+        public   String isosceles = "isosceles";
+        public   String scalene = "scalene";
+        public   String none = "none";
 
         public String triangleType(int[] nums) {
             Arrays.sort(nums);

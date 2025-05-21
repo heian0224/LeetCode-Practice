@@ -172,7 +172,7 @@ class Solution {
 
     }
 
-    private static int  getMaxSpecialNumForIndex(List<List<Integer>> special, List<Integer> needs, int n ,int specialIndex) {
+    private   int  getMaxSpecialNumForIndex(List<List<Integer>> special, List<Integer> needs, int n ,int specialIndex) {
         int maxSpecial = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++) {
             int specialNum= special.get(specialIndex).get(i);
