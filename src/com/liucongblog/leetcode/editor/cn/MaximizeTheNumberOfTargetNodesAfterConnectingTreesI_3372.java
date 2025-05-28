@@ -67,76 +67,82 @@
 //
 // Related Topics 树 深度优先搜索 广度优先搜索 👍 25 👎 0
 
-  
+
 package com.liucongblog.leetcode.editor.cn;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class MaximizeTheNumberOfTargetNodesAfterConnectingTreesI_3372{
+public class MaximizeTheNumberOfTargetNodesAfterConnectingTreesI_3372 {
     public static void main(String[] args) {
-         Solution solution = new MaximizeTheNumberOfTargetNodesAfterConnectingTreesI_3372().new Solution();
+        Solution solution = new MaximizeTheNumberOfTargetNodesAfterConnectingTreesI_3372().new Solution();
+        System.out.println(Arrays.toString(solution.maxTargetNodes(new int[][]{{0,1},{0,2},{2,3},{2,4}},
+                new int[][]{{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}},
+                2
+        )));
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
-        int n = edges1.length + 1;
-        int m = edges2.length + 1;
-        int[] count1 = build(edges1,k);
-        // 第二个树搜索 k-1次
-        int[] count2 = build(edges2,k-1);
-        //
-        int maxCount2 = 0;
-        for (int i = 0; i < m; i++) {
-            if (count2[i] > maxCount2) {
-                maxCount2 = count2[i];
-            }
-        }
-        int[]  res = new int[n];
-        for (int i = 0; i < n; i++) {
-            res[i] = count1[i] +maxCount2;
-        }
-        return res;
 
-    }
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
+            int n = edges1.length + 1;
+            int m = edges2.length + 1;
+            int[] count1 = build(edges1, k);
+            // 第二个树搜索 k-1次
+            int[] count2 = build(edges2, k - 1);
+            //
+            int maxCount2 = 0;
+            for (int i = 0; i < m; i++) {
+                if (count2[i] > maxCount2) {
+                    maxCount2 = count2[i];
+                }
+            }
+            int[] res = new int[n];
+            for (int i = 0; i < n; i++) {
+                res[i] = count1[i] + maxCount2;
+            }
+            return res;
+
+        }
 
         private int[] build(int[][] edges1, int k) {
             int n = edges1.length + 1;
-            List<List<Integer> > children = new ArrayList<>();
+            List<List<Integer>> children = new ArrayList<>();
             // 初始化树的数据结构
             for (int i = 0; i < n; i++) {
                 children.add(new ArrayList<>());
             }
             // 连接两条边
-            for( int[] edge : edges1) {
+            for (int[] edge : edges1) {
                 children.get(edge[0]).add(edge[1]);
                 children.get(edge[1]).add(edge[0]);
             }
             int[] res = new int[n];
             for (int i = 0; i < n; i++) {
-                res[i] = dfs(i,-1,children,k);
+                res[i] = dfs(i, -1, children, k);
             }
 
             return res;
         }
 
         private int dfs(int searchNode, int parent, List<List<Integer>> children, int k) {
-            if ( k < 0) {
+            if (k < 0) {
                 return 0;
             }
             // 加上当前连接次数,k==0 时边数小于0的节点数，至少有一个节点
-            if ( k ==0) {
+            if (k == 0) {
                 return 1;
             }
             int res = 1;
             // 获取跟搜索节点相邻的边的数据
             for (Integer linkedNode : children.get(searchNode)) {
                 // 如果是父节点跳过
-                if(linkedNode==parent){
+                if (linkedNode == parent) {
                     continue;
                 }
                 //继续找相邻节点
-                res += dfs(linkedNode,searchNode,children,k-1);
+                res += dfs(linkedNode, searchNode, children, k - 1);
 
             }
             return res;
