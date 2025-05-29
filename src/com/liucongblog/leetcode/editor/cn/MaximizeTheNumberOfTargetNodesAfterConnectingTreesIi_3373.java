@@ -86,7 +86,7 @@ public class MaximizeTheNumberOfTargetNodesAfterConnectingTreesIi_3373 {
             int[] color1 = new int[n];
             int[] color2 = new int[m];
             int[] count1 = build(edges1, color1);
-            // 第二个树搜索 k-1次
+
             int[] count2 = build(edges2, color2);
             int[] res = new int[n];
             for (int i = 0; i < n; i++) {
